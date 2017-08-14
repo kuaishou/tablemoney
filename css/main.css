@@ -1,0 +1,112 @@
+/*样式通过id限定
+尽可能多使用直接子代选择器*/
+
+
+@charset "UTF-8";
+/*css 初始化 */
+html, body, ul, li, ol, dl, dd, dt, p, h1, h2, h3, h4, h5, h6, form, fieldset, legend, img {
+    margin: 0;
+    padding: 0;
+}
+body {
+    overflow:Scroll;
+    overflow-x:hidden;
+    font-family:  Microsoft Yahei;
+}
+
+fieldset, img, input, button {
+    border: none;
+    padding: 0;
+    margin: 0;
+    outline-style: none;
+}
+
+ul, ol {
+    list-style: none;
+}
+
+input {
+    padding-top: 0;
+    padding-bottom: 0;
+    font-family: "SimSun", "宋体";
+}
+
+select, input {
+    vertical-align: middle;
+}
+
+select, input, textarea {
+    font-size: 12px;
+    margin: 0;
+}
+textarea {
+    resize: none;
+}
+
+/*防止拖动*/
+img {
+    border: 0;
+    vertical-align: middle;
+}
+
+/*  去掉图片低测默认的3像素空白缝隙*/
+table {
+    border-collapse: collapse;
+}
+.clearfix:before, .clearfix:after {
+    content: "";
+    display: table;
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+.clearfix {
+    *zoom: 1; /*IE/7/6*/
+}
+
+a {
+    color: #666;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #C81623;
+}
+
+
+s, i, em {
+    font-style: normal;
+    text-decoration: none;
+}
+body{
+    font-family: "Helvetica Neue", Helvetica, Microsoft Yahei, Hiragino Sans GB, WenQuanYi Micro Hei, sans-serif;
+    font-size: 14px;
+}
+
+#header{
+    width: 100%;
+    height: 80px;
+    line-height: 80px;
+    color: #fff;
+    font-size: 20px;
+    background-color: #027dc3;
+}
+
+.cont .table caption{
+    text-align: center;
+    line-height: 60px;
+    font-size: 22px;
+    font-weight: 600;
+    color: red;
+}
+.cont .table thead tr th{
+    font-size: 18px;
+    text-align: center;
+
+}
+.cont .table {
+    text-align: center;
+
+}

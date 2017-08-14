@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html>
+<head lang="zh-CN">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"/>
+
+    <link rel="stylesheet" href="../lib/bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" href="../css/main.css">
+  <!--  <link rel="stylesheet" href="../css/zhanghu-1.css"/>-->
+    <link rel="stylesheet" href="../css/inframe.css"/>
+    <link rel="stylesheet" type="text/css" href="../css/webuploader.css">
+    <link rel="stylesheet" href="../lib/image-upload/style.css"/>
+    <!--[if lt IE 9]>
+    <script src="../lib/html5shiv/html5shiv.min.js"></script>
+    <script src="../lib/respond/respond.min.js"></script>
+    <![endif]-->
+    <title>景区管理-编辑</title>
+    <style>
+    </style>
+</head>
+<body>
+<div class="jq-bianji">
+    店铺管理>景区管理>编辑
+</div>
+<div class="ruku  container">
+    <div class="rukuadd">
+        <form class="form-horizontal" action="">
+            <div class="form-group">
+                <label for="input1" class="col-sm-3 control-label">景区店铺ID</label>
+                <div class="col-sm-5">
+                    <input type="text" class="form-control" id="input1" disabled="true" placeholder="00001"/>
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="input2" class="col-sm-3 control-label">景区名称</label>
+                <div class="col-sm-5">
+                    <input type="text" class="form-control" id="input2" placeholder="请填写商品名称"/>
+                </div>
+            </div>
+
+            <div class="form-group">
+                <label for="input12" class="col-sm-3 control-label">景区描述</label>
+                <div class="col-sm-5">
+                    <textarea name="" id="input12" class="rukuadd-input12"  maxlength="500"></textarea>
+                </div>
+            </div>
+
+            <div class="form-group">
+                <label for="input3" class="col-sm-3 control-label" >景区等级</label>
+                <div class="col-sm-5">
+                    <input type="text" class="form-control" id="input3"  placeholder="请填写景区等级"/>
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="input4" class="col-sm-3 control-label">显示顺序</label>
+                <div class="col-sm-5">
+                    <input type="text" class="form-control" id="input4" placeholder="请填写显示顺序"/>
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="input5" class="col-sm-3 control-label ">门票原价</label>
+                <div class="col-sm-5">
+                    <input type="text" class="form-control menpiao-price" id="input5" placeholder="请填写门票原价"/>
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="input6" class="col-sm-3 control-label">销售价</label>
+                <div class="col-sm-5">
+                    <input type="text" class="form-control" id="input6" placeholder="请填写销售价"/>
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="input7" class="col-sm-3 control-label">景区地址</label>
+                <div class="col-sm-5">
+                    <input type="text" class="form-control" id="input7" placeholder="请填写景区地址"/>
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="input7" class="col-sm-3 control-label">景区纬度</label>
+                <div class="col-sm-5">
+                    <input type="text" class="form-control" id="input13" placeholder="请填写景区纬度"/>
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="input14" class="col-sm-3 control-label">景区经度</label>
+                <div class="col-sm-5">
+                    <input type="text" class="form-control" id="input14" placeholder="请填写景区经度"/>
+                </div>
+            </div>
+
+            <div class="form-group">
+                <label for="input16" class="col-sm-3 control-label">订票须知</label>
+                <div class="col-sm-5">
+                    <textarea name="" id="input16" class="rukuadd-input12"  maxlength="500"></textarea>
+                </div>
+            </div>
+
+
+
+
+            <div class="form-group">
+                <label for="input15" class="col-sm-3 control-label">营业开始时间</label>
+                <div class="col-sm-5">
+                    <input type="text" class="form-control" id="input15" placeholder="请填写营业开始时间"/>
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="input17" class="col-sm-3 control-label">营业结束时间</label>
+                <div class="col-sm-5">
+                    <input type="text" class="form-control" id="input17" placeholder="请填写营业结束时间"/>
+                </div>
+            </div>
+
+            <div class="form-group">
+                <label for="input9" class="col-sm-3 control-label">用户ID（卖家）</label>
+                <div class="col-sm-5">
+                    <input type="text" class="form-control" id="input9" placeholder="请填写用户ID（卖家）"/>
+                </div>
+            </div>
+
+            <div class="form-group">
+                <label for="input10" class="col-sm-3 control-label">店铺结算账户名称</label>
+                <div class="col-sm-5">
+                    <input type="text" class="form-control" id="input10" placeholder="请填写店铺结算账户名称"/>
+
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="input11" class="col-sm-3 control-label">店铺结算账号</label>
+                <div class="col-sm-5">
+                    <input type="text" class="form-control" id="input11"  placeholder="请填写店铺结算账号"/>
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="input13" class="col-sm-3 control-label">商品图片</label>
+                <div class="col-sm-5">
+                    <div id="wrapper">
+                        <div id="container">
+                            <!--头部，相册选择和格式选择-->
+                            <div class="blockImg">
+                                <figure class="blockImg-1">
+                                    <img class="blockImg-2" src="../img/zhanghu_bianji02.jpg" alt="副图"/>
+                                    <figcaption>000001</figcaption>
+                                    <div class="bianjishow">
+                                        <span id="bianji" class="glyphicon glyphicon-pencil" data-toggle="modal" data-target="#exampleModal"></span>
+                                        <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel">
+                                            <div class="modal-dialog" role="document">
+                                                <div class="modal-content">
+                                                    <div class="modal-header">
+                                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                                                        <h4 class="modal-title1" id="exampleModalLabel">编辑图片信息</h4>
+                                                    </div>
+                                                    <div class="modal-body">
+                                                        <form>
+                                                            <input type="text" class="form-control" id="recipient-name" placeholder="图片名称">
+                                                            <input type="text" class="form-control" id="recipient-name1" placeholder="图片排序">
+                                                            <input type="text" class="form-control" id="recipient-name2" placeholder="图片路径">
+                                                            <textarea class="form-control form-control-x" id="message-text" placeholder="图片描述信息"  maxlength="200"></textarea>
+                                                        </form>
+                                                    </div>
+                                                    <div class="modal-footer">
+                                                        <button type="button" class="btn btn-primary">保存</button>
+                                                        <button type="button" class="btn btn-default" data-dismiss="modal">取消</button>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <span id="delete" class="glyphicon glyphicon-trash"></span>
+                                    </div>
+                                </figure>
+
+                                <figure class="blockImg-1">
+                                    <img class="blockImg-2" src="../img/zhanghu_bianji02.jpg" alt="副图"/>
+                                    <figcaption>000001</figcaption>
+                                    <div class="bianjishow">
+                                        <span id="bianji" class="glyphicon glyphicon-pencil" data-toggle="modal" data-target="#exampleModal1"></span>
+                                        <span id="delete" class="glyphicon glyphicon-trash"></span>
+                                    </div>
+                                </figure>
+
+
+                                <figure class="blockImg-1">
+                                    <img class="blockImg-2" src="../img/zhanghu_bianji02.jpg" alt="副图"/>
+                                    <figcaption>000001</figcaption>
+                                    <div class="bianjishow">
+                                        <span id="bianji" class="glyphicon glyphicon-pencil"></span>
+                                        <span id="delete" class="glyphicon glyphicon-trash"></span>
+                                    </div>
+                                </figure>
+
+
+                                <figure class="blockImg-1">
+                                    <img class="blockImg-2" src="../img/zhanghu_bianji02.jpg" alt="副图"/>
+                                    <figcaption>000001</figcaption>
+                                    <div class="bianjishow">
+                                        <span id="bianji" class="glyphicon glyphicon-pencil"></span>
+                                        <span id="delete" class="glyphicon glyphicon-trash"></span>
+                                    </div>
+                                </figure>
+                                <figure class="blockImg-1">
+                                    <img class="blockImg-2" src="../img/zhanghu_bianji02.jpg" alt="副图"/>
+                                    <figcaption>000001</figcaption>
+                                    <div class="bianjishow">
+                                        <span id="bianji" class="glyphicon glyphicon-pencil"></span>
+                                        <span id="delete" class="glyphicon glyphicon-trash"></span>
+                                    </div>
+                                </figure>
+                                <figure class="blockImg-1">
+                                    <img class="blockImg-2" src="../img/zhanghu_bianji02.jpg" alt="副图"/>
+                                    <figcaption>000001</figcaption>
+                                    <div class="bianjishow">
+                                        <span id="bianji" class="glyphicon glyphicon-pencil"></span>
+                                        <span id="delete" class="glyphicon glyphicon-trash"></span>
+                                    </div>
+                                </figure>
+
+                                <figure class="blockImg-1">
+                                    <img class="blockImg-2" src="../img/zhanghu_bianji02.jpg" alt="副图"/>
+                                    <figcaption>000001</figcaption>
+                                    <div class="bianjishow">
+                                        <span id="bianji" class="glyphicon glyphicon-pencil"></span>
+                                        <span id="delete" class="glyphicon glyphicon-trash"></span>
+                                    </div>
+                                </figure>
+
+                                <figure class="blockImg-1">
+                                    <img class="blockImg-2" src="../img/zhanghu_bianji02.jpg" alt="副图"/>
+                                    <figcaption>000001</figcaption>
+                                    <div class="bianjishow">
+                                        <span id="bianji" class="glyphicon glyphicon-pencil"></span>
+                                        <span id="delete" class="glyphicon glyphicon-trash"></span>
+                                    </div>
+                                </figure>
+
+
+
+
+                            </div>
+
+                            <div id="uploader">
+                                <div class="queueList">
+                                    <div id="dndArea" class="placeholder">
+                                        <div id="filePicker"></div>
+                                        <p>或将照片拖到这里，单次最多可选300张</p>
+                                    </div>
+                                </div>
+                                <div class="statusBar" style="display:none;">
+                                    <div class="btns">
+                                        <div id="filePicker2"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            <div class="qingqu-htbtn">
+                <input type="submit" id="allbaocun"  class="btn btn-primary btn-sm allbaocun" value="保存"/>
+                <input type="button" id="allclear"  class="btn btn-primary btn-sm" value="取消"/>
+            </div>
+
+        </form>
+    </div>
+</div>
+
+<script src="../lib/jquery/jquery.js"></script>
+<script src="../lib/bootstrap/js/bootstrap.js"></script>
+<script src="../js/main.js"></script>
+<script type="text/javascript" src="../js/webuploader.min.js"></script>
+<script type="text/javascript" src="../lib/image-upload/upload.js"></script>
+
+</body>
+</html>
